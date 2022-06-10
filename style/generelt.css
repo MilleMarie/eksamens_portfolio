@@ -1,0 +1,63 @@
+img {
+  max-width: 100%;
+}
+
+
+
+
+/* ---------------------- HEADER ---------------------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10%;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    width: 100px
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+   list-style: none;
+  }
+  
+  li, a {
+    font-size: 100%;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+  }
+
+
+  
+/* ---------------------- HOVER MENU ---------------------- */
+
+  nav a.webdesign:hover {
+    color: #BC6F27;
+  }
+
+  nav a.ux:hover {
+    color: #BAB5A8;
+  }
+
+  nav a.animation:hover {
+    color: #B6D1DA;
+  }
+    
+  nav a.redesign:hover {
+    color: #D9B254;
+  }
+
+  nav a.portfolio:hover{
+    color: #AA410A;
+  }
+
+
+  
+  
+  
