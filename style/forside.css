@@ -1,0 +1,88 @@
+/* ------------------------ Max 600px ------------------------ */
+
+
+/* ------------------------ Forside ------------------------ */
+/* --------------- Grid_1-1 --------------- */
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+
+/* Tekst i siderne */
+
+.grid_1-1 p {
+
+    font-family: "Work Sans", sans-serif;
+    font-size: 50%;
+    font-weight: 200;
+    color: #6e6e6e;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.col_1-1 {
+    writing-mode: vertical-rl;
+    display: grid;
+    justify-items: center;
+    transform: rotate(-180deg); 
+}
+
+.col_1-3 {
+    writing-mode: vertical-lr;
+    display: grid;
+    justify-items: center;
+}
+
+
+/* Grafik-galleri i midten */
+.col_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.grafik_1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.grafik_2 {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 4;
+    align-self: stretch;
+    object-fit: cover;
+}
+ 
+.grafik_3 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 4;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.grafik_4 {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 2;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.grafik_5 {
+    grid-column: 1 / span 1;
+    grid-row: 8 / span 3;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.grafik_6 {
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 4;
+    align-self: stretch;
+    object-fit: cover;
+} 

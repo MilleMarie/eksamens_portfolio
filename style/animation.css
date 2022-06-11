@@ -1,0 +1,71 @@
+/* ------------------------ Max 600px ------------------------ */
+
+.animation_banner {
+    background-color: #BBD0D9;
+height: 25px;
+margin-bottom: 3rem;
+}
+
+button {
+    background-color: #BBD0D9;
+}
+
+.grid_4-5 button {
+    background-color: transparent;
+    border: white solid 2px;
+}
+
+.grid_4-4 button {
+   margin-top: 10%;
+   margin-bottom: 10%;
+}
+
+
+
+/* ------------------------ Animation ------------------------ */
+/* --------------- Grid_4-1 --------------- */
+.grid_4-1 {
+margin-bottom: 15%;
+}
+
+.col_4-1 {
+    margin-bottom: 1rem;
+}
+
+/* --------------- Grid_4-2 --------------- */
+
+.grid_4-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 1rem;
+    margin-bottom: 15%;
+  }
+
+  /* --------------- Grid_4-3 --------------- */
+
+  .grid_4-3 {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  /* --------------- Grid_4-4 --------------- */
+
+  .grid_4-4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(231, 244, 255);
+    margin-bottom: 15%;
+    gap: 2rem;
+    padding: 5%;
+  }
+
+  .col_4-9-1 h3{
+    margin-top: 0;
+  }
+
+  /* --------------- Grid_4-5 --------------- */
+
+  .grid_4-5 {
+   
+    background-color: #BBD0D9;  }
