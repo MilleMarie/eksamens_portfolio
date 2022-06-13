@@ -25,7 +25,7 @@ button {
 /* ------------------------ Animation ------------------------ */
 /* --------------- Grid_4-1 --------------- */
 .grid_4-1 {
-margin-bottom: 15%;
+margin-bottom: 5rem;
 }
 
 .col_4-1 {
@@ -39,14 +39,14 @@ margin-bottom: 15%;
     grid-template-columns: 1fr 1fr;
     row-gap: 3rem;
     column-gap: 1rem;
-    margin-bottom: 15%;
+    margin-bottom: 5rem;
   }
 
   /* --------------- Grid_4-3 --------------- */
 
   .grid_4-3 {
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 5rem;
   }
 
   /* --------------- Grid_4-4 --------------- */
@@ -55,17 +55,73 @@ margin-bottom: 15%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: rgb(231, 244, 255);
-    margin-bottom: 15%;
+    margin-bottom: 5rem;
     gap: 2rem;
     padding: 5%;
   }
 
-  .col_4-9-1 h3{
+  .col_4-9 h3{
     margin-top: 0;
   }
 
   /* --------------- Grid_4-5 --------------- */
 
   .grid_4-5 {
-   
-    background-color: #BBD0D9;  }
+    background-color: #BBD0D9; 
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+/* .grid_4-5 button{
+    margin-inline: 10rem;
+} */
+
+
+
+
+@media (min-width: 700px) {
+  .grid_4-1 {
+      display: grid;
+      grid-template-columns: 2.5fr 1fr;
+      gap: 1.5rem;
+      }
+
+      .animation_banner {
+        height: 50px;
+    }
+
+    h4 {
+      font-size: 350%;
+    }
+
+    .grid_4-5 button{
+      font-size: 80%;
+      padding-inline: 3.5rem;
+     }
+
+    .grid_4-2 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 3rem;
+      }
+
+      .grid_4-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 4rem;
+        margin-top: 0;
+      }
+
+      .grid_4-4 {
+        grid-template-columns: 1fr 4fr;
+      }
+    
+  
+
+      .col_4_9 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        }
+}

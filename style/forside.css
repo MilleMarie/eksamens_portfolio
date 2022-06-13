@@ -6,7 +6,8 @@
 
 .grid_1-1 {
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-columns: 0.7fr 10fr 0.7fr;
+   
 }
 
 
@@ -16,10 +17,12 @@
 
     font-family: "Work Sans", sans-serif;
     font-size: 50%;
-    font-weight: 200;
-    color: #6e6e6e;
-    font-style: italic;
+   
     letter-spacing: 3px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #3d3d3d;
+    text-transform: uppercase;
 }
 
 .col_1-1 {
@@ -27,62 +30,193 @@
     display: grid;
     justify-items: center;
     transform: rotate(-180deg); 
+    padding: 1rem;
 }
 
 .col_1-3 {
     writing-mode: vertical-lr;
     display: grid;
     justify-items: center;
+    padding: 1rem;
+
 }
 
+ 
 
 /* Grafik-galleri i midten */
-.col_1-2 {
+
+.col_1-2_mobile {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    align-self: stretch;
-    object-fit: cover;
+    grid-template-rows: repeat(10, 1fr);
+
 }
 
 .grafik_1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
-    align-self: stretch;
-    object-fit: cover;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+
 }
 
 .grafik_2 {
-    grid-column: 1 / span 1;
-    grid-row: 4 / span 4;
-    align-self: stretch;
-    object-fit: cover;
-}
- 
-.grafik_3 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 4;
-    align-self: stretch;
-    object-fit: cover;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+
+.grafik_3 {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 4;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
 }
 
 .grafik_4 {
     grid-column: 2 / span 1;
     grid-row: 5 / span 2;
-    align-self: stretch;
-    object-fit: cover;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
 }
 
 .grafik_5 {
     grid-column: 1 / span 1;
-    grid-row: 8 / span 3;
-    align-self: stretch;
-    object-fit: cover;
+    grid-row: 8 / span 4;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
 }
 
 .grafik_6 {
     grid-column: 2 / span 1;
     grid-row: 7 / span 4;
-    align-self: stretch;
-    object-fit: cover;
-} 
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+
+
+.col_1-2_desktop {
+    display: none;
+}
+
+
+
+
+
+
+
+/* ------------------------ Min 900px ------------------------ */
+
+
+@media (min-width: 900px) {
+
+
+/* Tekst i siderne */
+.col_1-1, .col_1-3 {
+    align-items: center;
+}
+
+.grid_1-1 p {
+font-size: 65%;
+}
+
+
+
+
+
+/* Grafik-galleri i midten */
+
+.col_1-2_desktop {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+
+}
+
+.grafik_1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+
+.grafik_2 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 4;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+
+.grafik_3 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 4;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+
+.grafik_4 {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 2;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+
+.grafik_5 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 3;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+
+.grafik_6 {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 3;
+    display: flex;
+    align-items: stretch;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+
+
+
+.col_1-2_mobile {
+    display: none;
+}
+
+
+}

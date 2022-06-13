@@ -1,1 +1,202 @@
+/* ------------------------ Max 600px ------------------------ */
 
+
+.redesign_banner {
+    background-color: #D9B254;
+    height: 25px;
+    margin-bottom: 3rem;
+}
+
+button {
+    background-color: #D9B254;
+}
+
+.grid_5-5 button {
+    background-color: transparent;
+    border: white solid 2px;
+}
+
+/* ------------------------ Redesign ------------------------ */
+/* --------------- Grid_5-1 --------------- */
+
+.grid_5-1 img {
+border: #f0f0f0 solid 2px;
+
+}
+
+.grid_5-1 {
+    margin-bottom: 5rem;
+}
+
+/* --------------- Grid_5-2 --------------- */
+.grid_5-2 {
+    margin-bottom: 2rem;
+}
+
+
+
+/* --------------- Grid_5-3 --------------- */
+
+.grid_5-3{
+    background-color: #D9B254;
+    padding: 0.8rem;
+    margin-bottom: 5rem;
+
+
+}
+
+
+.redesign_moodboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1%;
+}  
+
+/* --------------- Grid_5-4 --------------- */
+
+
+
+video {
+    width: 100%;
+
+        margin-bottom: 1rem;
+    
+    
+}
+
+.grid_5-4 {
+    margin-bottom: 5rem;
+}
+
+.galleri_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(23, 1fr);
+    gap: 0.5rem;
+}
+
+
+.redesign_galleri_1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 4;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.redesign_galleri_2 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 3;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.redesign_galleri_3 {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 2;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.redesign_galleri_4 {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 4;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.redesign_galleri_5 {
+    grid-column: 1 / span 1;
+    grid-row: 7 / span 4;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+
+.redesign_galleri_6 {
+    grid-column: 2 / span 1;
+    grid-row: 8 / span 4;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.redesign_galleri_7 {
+    grid-column: 1 / span 1;
+    grid-row: 11 / span 3;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+
+
+.redesign_galleri_8 {
+    grid-column: 2 / span 1;
+    grid-row: 12 / span 9;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.redesign_galleri_9 {
+    grid-column: 1 / span 1;
+    grid-row: 14 / span 7;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+
+
+.grid_5-5 {
+    background-color: #D9B254; 
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.galleri_5_desktop {
+    display: none;
+}
+
+
+
+@media (min-width: 700px) {
+    .grid_5-1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1.5rem;
+        }
+
+        .grid_5-5 button{
+            font-size: 80%;
+            padding-inline: 3.5rem;
+           }
+
+    .grid_5-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .grid_5-2{
+        margin-bottom: 4rem;
+    } 
+
+    .grid_5-3 {
+        padding: 2rem;
+        }
+
+    h4 {
+        font-size: 350%;
+      }
+    .redesign_banner {
+        height: 50px;
+    }
+
+    .galleri_5_mobile {
+        display: none;
+    }
+
+    .galleri_5_desktop {
+        display: block;
+    }
+    
+  }

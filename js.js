@@ -14,3 +14,20 @@ function toggleMenu() {
   }
 }
 btn.addEventListener("click", toggleMenu);
+
+
+window.addEventListener("load", startSlider);
+
+
+
+const con_slide = document.querySelector("#col_3-6");
+const spri_slide =  document.querySelector("#slider");
+
+
+function startSlider() {
+
+    spri_slide.classList.add("slide_animation");
+
+
+}
+

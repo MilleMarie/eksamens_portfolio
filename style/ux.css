@@ -1,0 +1,263 @@
+/* ------------------------ Max 600px ------------------------ */
+
+.ux_banner {
+    background-color: #BAB5A8;
+    height: 25px;
+    margin-bottom: 3rem;
+}
+
+button {
+    background-color: #BAB5A8;
+}
+
+.grid_3-5 button {
+    background-color: transparent;
+    border: white solid 2px;
+}
+
+
+/* --------------- Grid_3-1 --------------- */
+
+.grid_3-1 {
+    margin-bottom: 5rem;
+    }  
+
+
+/* --------------- Grid_3-2 --------------- */
+
+.grid_3-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    }
+
+
+/* --------------- Grid_3-3 --------------- */
+
+    .grid_3-3 {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        }    
+
+    #col_3-6 {
+        background-color: #BAB5A8;
+        height: 13rem;
+        padding-top: 1rem;
+        }
+
+    #slider {
+        margin: 1rem;
+        height: 9rem;
+        }
+ 
+
+.slide_animation{
+    animation-name: slide_kf;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+   
+
+}
+
+
+@keyframes slide_kf {
+    6.66% {
+        background-image: url(/foto/03_ux/test_ux_1.webp);
+        background-size: cover;
+     }    
+     
+     13.33% {
+        background-image: url(/foto/03_ux/test_ux_2.webp);
+        background-size: cover;
+    }
+
+    19.99% {
+        background-image: url(/foto/03_ux/test_ux_3.webp);
+        background-size: cover;
+    }
+
+    26.65% {
+        background-image: url(/foto/03_ux/test_ux_4.webp);
+        background-size: cover;
+    }
+
+    33.31% {
+        background-image: url(/foto/03_ux/test_ux_5.webp);
+         background-size: cover;
+    }
+
+    39.97% {
+        background-image: url(/foto/03_ux/test_ux_6.webp);
+        background-size: cover;
+    }
+
+    46.63% {
+        background-image: url(/foto/03_ux/test_ux_6.webp);
+        background-size: cover;
+    }
+
+    53.29% {
+        background-image: url(/foto/03_ux/test_ux_7.webp);
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url(/foto/03_ux/test_ux_8.webp);
+        background-size: cover;
+    }
+
+    66.66% {
+        background-image: url(/foto/03_ux/test_ux_9.webp);
+        background-size: cover;
+    }
+
+    73.32% {
+        background-image: url(/foto/03_ux/test_ux_10.webp);
+        background-size: cover;
+    }
+
+    6.66% {
+        background-image: url(/foto/03_ux/test_ux_11.webp);
+        background-size: cover;
+    }
+
+
+    80% {
+        background-image: url(/foto/03_ux/test_ux_12.webp);
+        background-size: cover;
+    }
+
+
+    86.66% {
+        background-image: url(/foto/03_ux/test_ux_13.webp);
+        background-size: cover;
+    }
+
+
+    93.32% {
+        background-image: url(/foto/03_ux/test_ux_14.webp);
+        background-size: cover;
+    }
+
+
+ 100% {
+        background-image: url(/foto/03_ux/test_ux_15.webp);
+        background-size: cover;
+    } 
+
+}
+
+
+/* --------------- Grid_3-4 --------------- */
+
+
+.grid_3-4 {
+    margin-bottom: 5rem;
+}
+
+/* --------------- Grid_3-5 --------------- */
+
+  .grid_3-5 {
+    background-color: #BAB5A8; 
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+       
+
+
+
+
+    /* ------------------------ Min 700px ------------------------ */
+
+    @media (min-width: 700px) {
+        .grid_3-1 {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 1.5rem;
+            }
+
+
+        .grid_3-2 {
+            gap: 5rem;
+            margin-bottom: 7rem;
+        } 
+        
+        .grid_3-3 {
+            margin-bottom: 7rem;
+   
+        }
+
+        .grid_3-4 {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            }
+
+            .ux_banner {
+                height: 50px;
+            }
+
+            h4 {
+                font-size: 350%;
+              }
+    
+          
+/* --------------- Grid_3-6 --------------- */
+
+            #col_3-6 {
+               
+                height: 16rem;
+                }
+
+                #slider {
+              
+                height: 11rem;
+                }
+
+
+                .col_3-7 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1rem;
+                    margin-top: 1rem;
+                    }
+
+
+                    .grid_3-5 button{
+                        font-size: 80%;
+                        padding-inline: 3.5rem;
+                       }
+    
+    }
+
+    @media (min-width: 900px) {
+        #col_3-6 {
+               
+            height: 18rem;
+            }
+
+            #slider {
+          
+            height: 13rem;
+            }
+
+    }
+
+
+    @media (min-width: 1200px) {
+        #col_3-6 {
+               
+            height: 23rem;
+            }
+
+            #slider {
+          
+            height: 19rem;
+            }
+
+    }
