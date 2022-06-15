@@ -1,6 +1,6 @@
 /* ------------------------ Max 600px ------------------------ */
 
-button {
+span {
     background-color: #BAB5A8;
 }
 
@@ -56,7 +56,7 @@ button {
                     padding-top: 1rem;                
                 }
 
-                .grid_3-2 button {
+                .grid_3-2 span {
                     font-size: 62%;
                     padding-inline: 2rem;
                     padding-block: 0.4rem;
@@ -105,7 +105,7 @@ padding: 1rem;
     font-size: 60%;
 }
 
-.grid_3-3 button{
+.grid_3-3 span{
     font-size: 62%;
     padding-inline: 2rem;
     padding-block: 0.7rem;
@@ -125,7 +125,7 @@ padding: 1rem;
 }
 
        
-.grid_3-4 button{
+.grid_3-4 span{
     font-size: 40%;
 padding-inline: 1rem;
 padding-block: 0.4rem;
@@ -157,7 +157,7 @@ padding-block: 0.4rem;
         font-size: 70%;                
     }
 
-    .grid_3-2 button {
+    .grid_3-2 span {
         font-size: 100%;
     }
 
@@ -184,7 +184,7 @@ padding-block: 0.4rem;
 
 
 /* --------------- Grid_3-4 --------------- */
-    .grid_3-4 button{
+    .grid_3-4 span{
         font-size: 57%;
     }
 }
@@ -219,7 +219,7 @@ padding-block: 0.4rem;
          padding-top: 2rem;              
      }
  
-     .grid_3-2 button {
+     .grid_3-2 span {
          font-size: 100%;
      }
  
@@ -295,7 +295,7 @@ padding: 2rem;
          padding-top: 2rem;              
      }
  
-     .grid_3-2 button {
+     .grid_3-2 span {
          font-size: 100%;
      }
  
@@ -331,7 +331,7 @@ padding: 2rem;
     }
 
 
-    .grid_3-3 button {
+    .grid_3-3 span {
         font-size: 120%;
       }
 

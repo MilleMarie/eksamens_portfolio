@@ -7,7 +7,7 @@ h2 {
     font-size: 95%;
 }
 
-button {
+span {
     background-color: #534F49;
 }
 
@@ -102,7 +102,7 @@ margin-inline: 5rem;
         font-size: 280%;
             }
     
-            .col_6-2 button{
+            .col_6-2 span{
                 font-size: 100%;
                     }
     

@@ -1,6 +1,6 @@
 /* ------------------------ Max 600px ------------------------ */
 
-button {
+span {
     background-color: #D9B254;
 }
 
@@ -25,7 +25,7 @@ font-family: 'DM Serif Display', serif;
 text-transform: none;
 }
 
-.grid_5-2 button {
+.grid_5-2 span {
 margin-top: 1rem;
 margin-bottom: 3rem;
 }
@@ -85,7 +85,7 @@ margin-bottom: 3rem;
     color: #BC6F27;
    }
 
-   .grid_5-3 button{
+   .grid_5-3 span{
     text-transform: none;
     margin-left: 20%;
     font-size: 50%;
@@ -304,7 +304,7 @@ text-align: center;
     font-size: 75%;
    }
 
-   .grid_5-3 button{
+   .grid_5-3 span{
     font-size: 91%;
    }
    
@@ -389,7 +389,7 @@ font-size: 72%;
 font-size: 60%;  
 }
 
-.col_5-7 button {
+.col_5-7 span {
     font-size: 86%;
 }
     
@@ -407,7 +407,7 @@ font-size: 60%;
     margin-inline: 10rem;
     gap: 3rem;
  }
-.grid_5-2 button {
+.grid_5-2 span {
     font-size: 100%;
 }
 
@@ -451,7 +451,7 @@ font-size: 60%;
     font-size: 70%;  
     }
     
-    .col_5-7 button {
+    .col_5-7 span {
         font-size: 86%;
     }
     

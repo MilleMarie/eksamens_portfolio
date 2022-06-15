@@ -193,7 +193,7 @@ small{
 
 }
 
-button { 
+span { 
 
   font-weight: 500;
   text-decoration: none;
@@ -274,7 +274,7 @@ footer p{
 
     /* ----------------- Tekst-styling ----------------- */
 
-    button { 
+    span { 
       font-size: 50%;
     }
 
@@ -328,7 +328,7 @@ p {
       
 
 
-button { 
+span { 
   font-size: 65%;
 }
 

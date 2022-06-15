@@ -1,7 +1,7 @@
 /* ------------------------ Max 600px ------------------------ */
 
 
-button {
+span {
     background-color: #BC6F27;
 }
 
@@ -43,7 +43,7 @@ button {
     font-size: 71%;
 }    
 
-.grid_2-2 button{
+.grid_2-2 span{
 padding-block: 0.6rem;
 }  
 

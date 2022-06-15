@@ -1,6 +1,6 @@
 /* ------------------------ Max 600px ------------------------ */
 
-button {
+span {
     background-color: #AA410A;
 }
 
@@ -109,7 +109,7 @@ padding: 1rem;
         font-size: 50%;    
     } 
 
-    .col_6-7 button {
+    .col_6-7 span {
         font-size: 40%;    
     }
 
@@ -189,7 +189,7 @@ padding: 2rem;
 
  /* --------------- Grid 6-5 --------------- */
          
-        .grid_6-5 button{
+        .grid_6-5 span{
             font-size: 80%;
             padding-inline: 3.5rem;
            }
@@ -237,7 +237,7 @@ padding: 2rem;
     font-size: 70%;    
         } 
     
-        .col_6-7 button {
+        .col_6-7 span {
     font-size: 60%;    
         }
 

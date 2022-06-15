@@ -49,6 +49,7 @@ finde en ordentlig løsning desværre.
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(10, 1fr);
+    align-items: stretch;
 
 }
 
@@ -149,6 +150,7 @@ font-size: 65%;
     display: grid;
     grid-template-columns: 1fr 1.2fr 1fr;
     grid-template-rows: repeat(6, 1fr);
+    align-items: stretch;
 
 }
 
