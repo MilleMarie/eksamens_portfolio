@@ -1,19 +1,10 @@
 /* ------------------------ Max 600px ------------------------ */
 
-.ux_banner {
-    background-color: #BAB5A8;
-    height: 25px;
-    margin-bottom: 3rem;
-}
 
 button {
     background-color: #BAB5A8;
 }
 
-.grid_3-5 button {
-    background-color: transparent;
-    border: white solid 2px;
-}
 
 
 /* --------------- Grid_3-1 --------------- */
@@ -27,147 +18,193 @@ button {
 
 .grid_3-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-inline: 2rem;
+   
     }
 
+    .col_3-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        gap: 2rem;
+        }
+
+        .col_3-4 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+            gap: 2rem;
+            }
+            .col_3-5 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                text-align: center;
+                gap: 2rem;
+                }       
+                
+                
+                .grid_3-2 img {
+                    padding-top: 3.5rem;
+                }
+
+
+                .grid_3-2 h3 {
+                    font-family: 'DM Serif Display', serif;
+                    text-transform: none;
+                    margin-bottom: 0;
+                
+                }
+
+                .grid_3-2 p {
+                    font-size: 40%;
+                    padding-top: 1rem;                
+                }
+
+                .grid_3-2 button {
+                    font-size: 62%;
+                    padding-inline: 2rem;
+                    padding-block: 0.4rem;
+                }
+
+                .grid_3-2 small {
+                    font-size: 50%;
+                  
+                }
+                .grid_3-2_tekst {
+                    padding-top: 2rem;
+                }
 
 /* --------------- Grid_3-3 --------------- */
 
+
+
     .grid_3-3 {
+        background-image: url(../foto/03_ux/userexperience.webp);
+        background-size: cover;
+        height: 26rem;
+padding-top: 1rem;
         margin-bottom: 3rem;
         margin-top: 3rem;
         }    
 
-    #col_3-6 {
-        background-color: #BAB5A8;
-        height: 13rem;
-        padding-top: 1rem;
-        }
+.projekt_3_tekst {
+            margin-inline: 2rem;
+padding: 2rem;
+margin-block: 2rem;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.945);
+padding: 1rem;
+}
 
-    #slider {
-        margin: 1rem;
-        height: 9rem;
-        }
- 
+.grid_3-3 h1{
+    font-size: 300%;
+}
 
-.slide_animation{
-    animation-name: slide_kf;
-    animation-duration: 30s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-   
+.grid_3-3 h3{
+    font-size: 80%;
+}
 
+.grid_3-3 p{
+    font-size: 60%;
+}
+
+.grid_3-3 button{
+    font-size: 62%;
+    padding-inline: 2rem;
+    padding-block: 0.7rem;
+    margin-bottom: 3rem;
 }
 
 
-@keyframes slide_kf {
-    6.66% {
-        background-image: url(/foto/03_ux/test_ux_1.webp);
-        background-size: cover;
-     }    
-     
-     13.33% {
-        background-image: url(/foto/03_ux/test_ux_2.webp);
-        background-size: cover;
-    }
-
-    19.99% {
-        background-image: url(/foto/03_ux/test_ux_3.webp);
-        background-size: cover;
-    }
-
-    26.65% {
-        background-image: url(/foto/03_ux/test_ux_4.webp);
-        background-size: cover;
-    }
-
-    33.31% {
-        background-image: url(/foto/03_ux/test_ux_5.webp);
-         background-size: cover;
-    }
-
-    39.97% {
-        background-image: url(/foto/03_ux/test_ux_6.webp);
-        background-size: cover;
-    }
-
-    46.63% {
-        background-image: url(/foto/03_ux/test_ux_6.webp);
-        background-size: cover;
-    }
-
-    53.29% {
-        background-image: url(/foto/03_ux/test_ux_7.webp);
-        background-size: cover;
-    }
-
-    60% {
-        background-image: url(/foto/03_ux/test_ux_8.webp);
-        background-size: cover;
-    }
-
-    66.66% {
-        background-image: url(/foto/03_ux/test_ux_9.webp);
-        background-size: cover;
-    }
-
-    73.32% {
-        background-image: url(/foto/03_ux/test_ux_10.webp);
-        background-size: cover;
-    }
-
-    6.66% {
-        background-image: url(/foto/03_ux/test_ux_11.webp);
-        background-size: cover;
-    }
-
-
-    80% {
-        background-image: url(/foto/03_ux/test_ux_12.webp);
-        background-size: cover;
-    }
-
-
-    86.66% {
-        background-image: url(/foto/03_ux/test_ux_13.webp);
-        background-size: cover;
-    }
-
-
-    93.32% {
-        background-image: url(/foto/03_ux/test_ux_14.webp);
-        background-size: cover;
-    }
-
-
- 100% {
-        background-image: url(/foto/03_ux/test_ux_15.webp);
-        background-size: cover;
-    } 
-
-}
 
 
 /* --------------- Grid_3-4 --------------- */
 
 
 .grid_3-4 {
-    margin-bottom: 5rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 1rem;
+   margin-inline: 2rem;
+   text-align: center;
 }
 
-/* --------------- Grid_3-5 --------------- */
-
-  .grid_3-5 {
-    background-color: #BAB5A8; 
-    display: block;
-    padding: 1rem;
-    text-align: center;
-    margin: 0;
-}
 
        
+.grid_3-4 button{
+    font-size: 40%;
+padding-inline: 1rem;
+padding-block: 0.4rem;
+    margin-bottom: 3rem;
+}
+
+.grid_3-4 img {
+    width: 58%;
+    margin-bottom: 1rem;
+    }
+
+
+
+
+
+
+
+    /* ------------------------ Min 500px ------------------------ */
+
+
+@media (min-width: 500px) {
+/* --------------- Grid_3-2 --------------- */
+
+    .grid_3-2 h3 {
+   font-size: 150%;
+    
+    }
+
+    .grid_3-2 p {
+        font-size: 70%;                
+    }
+
+    .grid_3-2 button {
+        font-size: 100%;
+    }
+
+    .grid_3-2 small {
+        font-size: 60%;
+    }
+
+
+
+/* --------------- Grid_3-3 --------------- */
+
+    .grid_3-3 p{
+        font-size: 70%;
+        margin-inline: 3rem;
+    }
+
+
+
+    .grid_3-3 h1{
+        font-size: 450%;
+    }
+    
+    .grid_3-3 h3{
+        font-size: 90%;
+    }
+
+
+/* --------------- Grid_3-4 --------------- */
+
+
+    .grid_3-4 button{
+        font-size: 57%;
+    }
+}
+
+
+
+
+
 
 
 
@@ -175,89 +212,166 @@ button {
     /* ------------------------ Min 700px ------------------------ */
 
     @media (min-width: 700px) {
-        .grid_3-1 {
-            display: grid;
-            grid-template-columns: 3fr 1fr;
-            gap: 1.5rem;
-            }
+    
 
-
-        .grid_3-2 {
-            gap: 5rem;
-            margin-bottom: 7rem;
-        } 
-        
-        .grid_3-3 {
-            margin-bottom: 7rem;
+/* --------------- Grid_3-2 --------------- */
+.grid_3-2 {
    
-        }
-
-        .grid_3-4 {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 2rem;
-            }
-
-            .ux_banner {
-                height: 50px;
-            }
-
-            h4 {
-                font-size: 350%;
-              }
-    
-          
-/* --------------- Grid_3-6 --------------- */
-
-            #col_3-6 {
-               
-                height: 16rem;
-                }
-
-                #slider {
-              
-                height: 11rem;
-                }
-
-
-                .col_3-7 {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    gap: 1rem;
-                    margin-top: 1rem;
-                    }
-
-
-                    .grid_3-5 button{
-                        font-size: 80%;
-                        padding-inline: 3.5rem;
-                       }
-    
+    margin-inline: 5rem;
+   
     }
 
-    @media (min-width: 900px) {
-        #col_3-6 {
-               
-            height: 18rem;
+    .grid_3-2 h3 {
+    font-size: 200%;
+     
+     }
+ 
+     .grid_3-2 p {
+         font-size: 83%;  
+         padding-top: 2rem;              
+     }
+ 
+     .grid_3-2 button {
+         font-size: 100%;
+     }
+ 
+     .grid_3-2 small {
+        padding-top: 1rem;
+         font-size: 80%;
+         
+     }
+    
+
+
+
+
+     /* --------------- Grid_3-3 --------------- */
+
+
+
+     .grid_3-3 {
+        height: 33rem;
+        }    
+
+.projekt_3_tekst {
+margin-inline: 7rem;
+margin-block: 5rem;
+padding: 2rem;
+}
+     
+
+.grid_3-3 button{
+    font-size: 80%;
+ 
+}
+
+
+ /* --------------- Grid_3-4 --------------- */
+
+        .grid_3-4 {
+            gap: 2rem;
+            margin-inline: 4rem;
+            margin-bottom: 5rem;
+         }
+
+         .grid_3-4 img {
+            width: 30%;
+            margin-bottom: 1rem;
             }
 
-            #slider {
           
-            height: 13rem;
-            }
 
+        }
+
+
+
+
+    @media (min-width: 900px) {
+
+
+/* --------------- Grid_3-2 --------------- */
+.grid_3-2 {
+    margin-inline: 8rem;
+    gap: 0;
+   
+    }
+
+    .grid_3-2 h3 {
+    font-size: 200%;
+     
+     }
+ 
+     .grid_3-2 p {
+         font-size: 83%;  
+         padding-top: 2rem;              
+     }
+ 
+     .grid_3-2 button {
+         font-size: 100%;
+     }
+ 
+     .grid_3-2 small {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+         font-size: 80%;
+         
+     }
+     .grid_3-2_tekst {
+         padding-top: 6rem;
+     }
+    
+          /* --------------- Grid_3-3 --------------- */
+
+
+     .col_3-3, .col_3-4, .col_3-5{
+        gap: 9rem;
+        }
+
+        .grid_3-2 img {
+            padding-top: 3.5rem;
+            max-width: 30rem;
+        }
+
+
+
+     /* --------------- Grid_3-3 --------------- */
+
+
+
+    .grid_3-3 p{
+        font-size: 80%;
+        margin-inline: 5rem;
+    }
+
+
+    .grid_3-3 button {
+        font-size: 120%;
+      }
+
+
+      .grid_3-3 {
+        height: 35rem;
+        }    
+
+        .projekt_3_tekst {
+        margin-inline: 10rem;
+
+        }
+     /* --------------- Grid_3-4 --------------- */
+
+
+        .grid_3-4 {
+            gap: 3rem;
+            margin-inline: 6rem;
+         }
     }
 
 
     @media (min-width: 1200px) {
-        #col_3-6 {
-               
-            height: 23rem;
-            }
+             /* --------------- Grid_3-2 --------------- */
 
-            #slider {
-          
-            height: 19rem;
-            }
-
+            .grid_3-2 {
+                gap: 0;
+                 margin-inline: 14rem;
+                 }
     }

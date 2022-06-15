@@ -7,12 +7,9 @@ margin-bottom: 3rem;
 }
 
 
-.main_dokumentation h3 {
-    font-size: 80%;
-  
-}
 
-.main_dokumentation {
+
+.dokumentation_main {
     padding-top: 1%;
     margin-inline: 6%;
 }
@@ -170,6 +167,7 @@ cursor: pointer;
     height: 2rem;
     display: grid;
     align-content: center;
+    text-align: center;
 
 }
 
@@ -245,6 +243,7 @@ border: #f0f0f0 solid 2px;
     height: 2rem;
     display: grid;
     align-content: center;
+    text-align: center;
 
 }
 

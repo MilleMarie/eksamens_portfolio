@@ -16,18 +16,26 @@ function toggleMenu() {
 btn.addEventListener("click", toggleMenu);
 
 
-window.addEventListener("load", startSlider);
 
 
 
-const con_slide = document.querySelector("#col_3-6");
-const spri_slide =  document.querySelector("#slider");
 
 
-function startSlider() {
-
-    spri_slide.classList.add("slide_animation");
 
 
-}
 
+
+
+
+
+// window.addEventListener("load", startGame);
+
+// const con_good1 = document.querySelector("#good1_container");
+// const spri_good1 =  document.querySelector("#good1_sprite");
+
+
+// function startGame() {
+//   console.log("startGame");
+
+//   con_good1.classList.add("fall_good1");
+// }
