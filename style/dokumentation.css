@@ -252,6 +252,25 @@ border: #f0f0f0 solid 2px;
 /* --------------- Grid_8-5 --------------- */
 
 
+.row_8-5-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+
+.row_8-5-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+.row_8-5-4 {
+    margin-bottom: 5rem;
+}
+
+
+
 
 
 
