@@ -5,17 +5,14 @@ button {
 }
 
 
-
-
-
 /* ------------------------ Animation ------------------------ */
 /* --------------- Grid_4-1 --------------- */
 .grid_4-1 {
-margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
-/* --------------- Grid_4-2 --------------- */
 
+/* --------------- Grid_4-2 --------------- */
 .grid_4-2-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,8 +22,6 @@ margin-bottom: 5rem;
     margin-inline: 1rem;
     text-align: center;
   }
-
-
 
 .grid_4-2 h2 {
     text-align: center;
@@ -39,6 +34,9 @@ margin-bottom: 5rem;
   
       }
 
+
+
+/* Styling på kolonnerne */
 
  .col_4-3 {
   background-color: #BBD0D9;
@@ -61,6 +59,9 @@ margin-bottom: 5rem;
 }    
 
 
+
+
+/* --------------- Farvepaletten --------------- */
 .farvepalette {
 background-color: #e2d8c7;
 margin-block: 7%
@@ -95,26 +96,22 @@ color: white;
 font-size: 31%;
 margin-inline: 30%;
 margin-bottom: 1rem;
-
-
   }
 
 
 
   /* --------------- Grid_4-3 --------------- */
-
   .grid_4-3 {
     margin-top: 10%;
     margin-bottom: 5rem;
   }
 
-  /* --------------- Grid_4-4 --------------- */
 
+  /* --------------- Grid_4-4 --------------- */
   .grid_4-4 {
     background-image: url(../foto/04_animation/projekt_4.-16.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-
     padding: 5%;
   }
 
@@ -122,20 +119,19 @@ margin-bottom: 1rem;
   .grid_4-4 small{
 font-size: 50%;
   }
+
   .grid_4-4 p{
     font-size: 57%;
     margin-right: 30%;
-      }
+  }
+
   .grid_4-4 h2{
     font-size: 250%;
-
     font-family: 'DM Serif Display', serif; 
     text-transform: none;
     margin-top: 1rem;
-margin-bottom: 0.7rem;
+    margin-bottom: 0.7rem;
   }
-
-
 
 .grid_4-4 button {
   margin-bottom: 3rem;
@@ -144,7 +140,6 @@ margin-bottom: 0.7rem;
 }
 
   /* --------------- Grid_4-5 --------------- */
-
   .grid_4-5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -152,17 +147,14 @@ margin-bottom: 0.7rem;
     margin-inline: 2rem;
     margin-block: 3rem;
     text-align: center;
-}
+  }
 
-.grid_4-5 img{
-  width: 49%;
+  .grid_4-5 img{
+    width: 49%;
   }
 
 
   /* --------------- Grid_4-6 --------------- */
-
-
-
   .grid_4-6 {
     background-color: #f3ece6;
 
@@ -179,20 +171,24 @@ margin-bottom: 0.7rem;
 
 
 
-
-
+/* ------------------------ Min 500px ------------------------ */
 
 @media (min-width: 500px) {
+
+  /* --------------- Farvepaletten --------------- */
   .farvepalette h2 {
     font-size: 120%;
     }
+
 }
 
 
 
 
+/* ------------------------ Min 700px ------------------------ */
 
 @media (min-width: 700px) {
+  /* --------------- Farvepaletten --------------- */
 
   .farvepalette p {
       font-size: 49%;
@@ -203,53 +199,59 @@ margin-bottom: 0.7rem;
         font-size: 200%;
         }
 
+  /* --------------- Grid_4-3 --------------- */
 
+  .grid_4-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 4rem;
+    margin-top: 0;
+  }
+
+
+  /* --------------- Grid_4-4 --------------- */
+
+      .grid_4-4 {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        margin-bottom: 5rem;
+        padding-top: 2.5rem;
+      }
+
+      .grid_4-4 button{
+        margin-bottom: 0;
+      }
+
+      .col_4-1 {
+        padding-top: 10%;
+      }
+
+      .col_4-2 {
+        display: grid;
+        align-items: center;
+      }
+
+
+
+  /* --------------- Grid_4-5 --------------- */
 
     .grid_4-5 button{
       font-size: 80%;
       padding-inline: 3.5rem;
      }
 
-      .grid_4-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        gap: 4rem;
-        margin-top: 0;
-      }
-
-      .grid_4-4 {
-        display: grid;
-        grid-template-columns: 1fr 1.5fr;
-  
-        margin-bottom: 5rem;
-        padding-top: 2.5rem;
-      }
-      .grid_4-4 button{
-        margin-bottom: 0;
-      }
-      .col_4-1 {
-        padding-top: 10%;
-        }
-      .col_4-2 {
-        display: grid;
-        align-items: center;
-      }
-      
-    
-  
-
-      .col_4_9 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        }
 }
 
 
 
 
+
+
+/* ------------------------ Min 900px ------------------------ */
+
 @media (min-width: 900px) {
 
+  /* --------------- Grid_4-2 --------------- */
 
 .grid_4-2-1 {
   display: grid;
@@ -258,8 +260,6 @@ margin-bottom: 0.7rem;
   margin-inline: 6rem;
   margin-top: 1rem;
   }
-
-
 
   .grid_4-2 p {
 font-size: 65%;
@@ -273,6 +273,7 @@ font-family: 'DM Serif Display', serif;
 text-transform: none;
 }
 
+  /* --------------- Farvepalette --------------- */
 
 .farvepalette h2 {
 padding-top: 1rem;
@@ -295,8 +296,7 @@ padding-bottom: 2rem;
 
 }
 
-
-
+  /* --------------- Grid_4-4 --------------- */
 .grid_4-4 small{
   font-size: 60%;
     }
@@ -313,10 +313,12 @@ padding-bottom: 2rem;
   }
 
 
+
+
+  /* --------------- Grid_4-4 --------------- */
   .grid_4-5 {
     gap: 5rem;
     margin-inline: 10rem;
-
 }
 
   .grid_4-5 h3{

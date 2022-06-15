@@ -1,3 +1,6 @@
+/* ---------------------- Helt generelt ---------------------- */
+
+
 *{
 
   all: unset;
@@ -10,12 +13,6 @@
 img {
   max-width: 100%;
 }
-
-/* .main {
-  padding-top: 1%;
-  margin-inline: 12%;
-} */
-
 
 
 /* ---------------------- Header ---------------------- */
@@ -211,7 +208,10 @@ button {
   padding-block: 0.4rem;
 }
   
-  
+
+
+  /* ---------------------- Footer ---------------------- */
+
 
 footer {
   height: 3rem;
@@ -231,6 +231,15 @@ footer p{
   margin-top: 2rem;
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -262,21 +271,16 @@ footer p{
     li, a {
       font-size: 85%;
     }
-  
+
+    /* ----------------- Tekst-styling ----------------- */
+
+    button { 
+      font-size: 50%;
+    }
+
   }
 
 
-
-  @media (min-width: 700px) {
-
-    /* ----------------- Tekst-styling ----------------- */
-   
-         button { 
-           font-size: 50%;
-         }
-
-
-       }
 
 
 

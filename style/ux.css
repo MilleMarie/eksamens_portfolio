@@ -1,27 +1,22 @@
 /* ------------------------ Max 600px ------------------------ */
 
-
 button {
     background-color: #BAB5A8;
 }
 
-
-
 /* --------------- Grid_3-1 --------------- */
-
 .grid_3-1 {
     margin-bottom: 5rem;
     }  
 
 
 /* --------------- Grid_3-2 --------------- */
-
 .grid_3-2 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     margin-inline: 2rem;
-   
-    }
+   }
+
 
     .col_3-3 {
         display: grid;
@@ -44,17 +39,17 @@ button {
                 }       
                 
                 
-                .grid_3-2 img {
-                    padding-top: 3.5rem;
-                }
+    .grid_3-2 img {
+        padding-top: 3.5rem;
+    }
 
 
-                .grid_3-2 h3 {
-                    font-family: 'DM Serif Display', serif;
-                    text-transform: none;
-                    margin-bottom: 0;
+    .grid_3-2 h3 {
+        font-family: 'DM Serif Display', serif;
+        text-transform: none;
+        margin-bottom: 0;
                 
-                }
+    }
 
                 .grid_3-2 p {
                     font-size: 40%;
@@ -75,21 +70,22 @@ button {
                     padding-top: 2rem;
                 }
 
+
+
+
 /* --------------- Grid_3-3 --------------- */
-
-
 
     .grid_3-3 {
         background-image: url(../foto/03_ux/userexperience.webp);
         background-size: cover;
         height: 26rem;
-padding-top: 1rem;
+        padding-top: 1rem;
         margin-bottom: 3rem;
         margin-top: 3rem;
         }    
 
 .projekt_3_tekst {
-            margin-inline: 2rem;
+margin-inline: 2rem;
 padding: 2rem;
 margin-block: 2rem;
 text-align: center;
@@ -120,8 +116,6 @@ padding: 1rem;
 
 
 /* --------------- Grid_3-4 --------------- */
-
-
 .grid_3-4 {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -129,7 +123,6 @@ padding: 1rem;
    margin-inline: 2rem;
    text-align: center;
 }
-
 
        
 .grid_3-4 button{
@@ -151,7 +144,6 @@ padding-block: 0.4rem;
 
 
     /* ------------------------ Min 500px ------------------------ */
-
 
 @media (min-width: 500px) {
 /* --------------- Grid_3-2 --------------- */
@@ -182,8 +174,6 @@ padding-block: 0.4rem;
         margin-inline: 3rem;
     }
 
-
-
     .grid_3-3 h1{
         font-size: 450%;
     }
@@ -194,8 +184,6 @@ padding-block: 0.4rem;
 
 
 /* --------------- Grid_3-4 --------------- */
-
-
     .grid_3-4 button{
         font-size: 57%;
     }
@@ -245,7 +233,7 @@ padding-block: 0.4rem;
 
 
 
-     /* --------------- Grid_3-3 --------------- */
+ /* --------------- Grid_3-3 --------------- */
 
 
 
@@ -279,11 +267,12 @@ padding: 2rem;
             margin-bottom: 1rem;
             }
 
-          
-
         }
 
 
+
+
+    /* ------------------------ Min 900px ------------------------ */
 
 
     @media (min-width: 900px) {
@@ -320,8 +309,6 @@ padding: 2rem;
          padding-top: 6rem;
      }
     
-          /* --------------- Grid_3-3 --------------- */
-
 
      .col_3-3, .col_3-4, .col_3-5{
         gap: 9rem;
@@ -366,6 +353,7 @@ padding: 2rem;
          }
     }
 
+    /* ------------------------ Min 1200px ------------------------ */
 
     @media (min-width: 1200px) {
              /* --------------- Grid_3-2 --------------- */

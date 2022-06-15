@@ -2,22 +2,22 @@
 
 
 /* ------------------------ Forside ------------------------ */
+/* Jeg er godt klar over at der er gaps i mit grid her på forsiden når man loader 1. gang. Hvis man 
+lige hiver hurtigt i vinduet burde grafikken lægge sig som den skal i griddet. Har ikke kunne nå at 
+finde en ordentlig løsning desværre.
 /* --------------- Grid_1-1 --------------- */
 
 .grid_1-1 {
     display: grid;
     grid-template-columns: 0.7fr 10fr 0.7fr;
-   
 }
 
 
 /* Tekst i siderne */
 
 .grid_1-1 p {
-
     font-family: "Work Sans", sans-serif;
     font-size: 50%;
-   
     letter-spacing: 3px;
     margin-bottom: 0;
     font-weight: 400;
@@ -43,7 +43,7 @@
 
  
 
-/* Grafik-galleri i midten */
+/* Grafik-galleri (MOBILE) i midten*/
 
 .col_1-2_mobile {
     display: grid;
@@ -143,7 +143,7 @@ font-size: 65%;
 
 
 
-/* Grafik-galleri i midten */
+/* Grafik-galleri (DESKTOP) i midten*/
 
 .col_1-2_desktop {
     display: grid;

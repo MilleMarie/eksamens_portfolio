@@ -1,18 +1,6 @@
 /* ------------------------ Max 600px ------------------------ */
 
 
-.webdesign_banner {
-    background-color: #BC6F27;
-    height: 25px;
-    margin-bottom: 3rem;
-}
-
-.webdesign_banner_2 {
-    background-color: #BC6F27;
-    height: 15px;
-    margin-bottom: 3rem;
-}
-
 button {
     background-color: #BC6F27;
 }
@@ -36,38 +24,39 @@ button {
 /* --------------- Grid_2-2  --------------- */
 .grid_2-2 {
     background-color: #e2d8c7;
-  
-padding: 2rem; 
+    padding: 2rem; 
 }
 
 .grid_2-2 h1{
-font-size: 270%;
+    font-size: 270%;
 }
+
 .grid_2-2 h3{
-font-size: 71%;
+    font-size: 71%;
 }
+
 .grid_2-2 p{
     font-size: 40%;
-    }
+}
 
-    .grid_2-2 a{
-        font-size: 71%;
-      
-        }    
-        .grid_2-2 button{
-            
-            padding-block: 0.6rem;
-            }  
+.grid_2-2 a{
+    font-size: 71%;
+}    
+
+.grid_2-2 button{
+padding-block: 0.6rem;
+}  
 
 .grid_2-2 img {
     width: 80%;
-    }
+}
 
 
 .projekt_2_tekst {
-        text-align: center;
-    
-        }
+    text-align: center;
+}
+
+
 
 
 /* --------------- Grid_2-3 --------------- */
@@ -83,23 +72,26 @@ font-size: 71%;
 
 
 
+
+/* ------------------------ Min 500px ------------------------ */
 @media (min-width: 500px) {
 
-    .grid_2-1 {
-margin-inline: 8rem;
-    }
+.grid_2-1 {
+    margin-inline: 8rem;
+}
 
+.grid_2-2 h1{
+    font-size: 300%;
+}
 
-    .grid_2-2 h1{
-        font-size: 300%;
-        }
-        .grid_2-2 h3{
-        font-size: 90%;
-        }
+.grid_2-2 h3{
+    font-size: 90%;
+}
 
-    .grid_2-2 p{
-        font-size: 70%;
-        }
+.grid_2-2 p{
+    font-size: 70%;
+}
+
 }
 
 
@@ -112,86 +104,82 @@ margin-inline: 8rem;
 
 
 
-    /* ------------------------ Min 700px ------------------------ */
+/* ------------------------ Min 700px ------------------------ */
 
 @media (min-width: 700px) {
 
-    /* --------------- Grid_2-1  --------------- */
+/* --------------- Grid_2-1  --------------- */
+ .grid_2-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+}    
 
-    .grid_2-1 {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        gap: 1.5rem;
-        margin-bottom: 5rem;
-        }
-
-
-        .grid_2-1 img {
-            width: 20%;
-        }
-        .grid_2-1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 5rem;
-            margin-inline: 5rem;
-            margin-top: 5rem;
-            margin-bottom: 5rem;
-        }
+.grid_2-1 img {
+    width: 20%;
+}
+.grid_2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    margin-inline: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 
     
 
 
 /* --------------- Grid_2-2  --------------- */
-
-
 .grid_2-2 {
     background-color: #e2d8c7;
-    
 }
 
 .grid_2-2 h1{
     font-size: 360%;
-    }
-    .grid_2-2 h3{
+}
+
+.grid_2-2 h3{
     font-size: 100%;
-    }
-    .grid_2-2 p{
-        font-size: 70%;
-        margin-inline: 4rem;
-        }
-    
-        .grid_2-2 a{
-            font-size: 110%;
-          
-            }    
+}
+
+.grid_2-2 p{
+    font-size: 70%;
+    margin-inline: 4rem;
+}
+            
+.grid_2-2 a{
+    font-size: 110%;
+}    
+
+
 
 /* --------------- Grid_2-3  --------------- */
-
-
 .grid_2-3 {
     margin-inline: 7rem;
     gap: 5rem;
 }
 
-
-
 }
 
 
+
+
+/* ------------------------ Min 900px ------------------------ */
 @media (min-width: 900px) {
 
-
+/* --------------- Grid_2-3  --------------- */
 .grid_2-2 {
     background-color: #e2d8c7;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
 }
 
 .grid_2-2 p{
     font-size: 70%;
     margin-inline: 0;
-    }
+}
 
 
 .grid_2-2 img {
@@ -199,23 +187,22 @@ margin-inline: 8rem;
     margin-left: 4rem;
     margin-block: 4rem;
     padding-top: 2rem
-    }
+}
 
 
 .projekt_2_tekst {
-        text-align: right;
-        margin-right: 3rem;
-        margin-top: 3rem;
-        padding: 4rem;
-        }
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    padding: 4rem;
+}
 
 
-
-
+/* --------------- Grid_2-3  --------------- */
 .grid_2-3 {
             
     margin-inline: 18rem;
     margin-block: 5rem;
-    }
+}
 
-    }
+}

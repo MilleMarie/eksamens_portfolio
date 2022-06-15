@@ -1,27 +1,11 @@
 /* ------------------------ Max 600px ------------------------ */
 
-
-.redesign_banner {
-    background-color: #D9B254;
-    height: 25px;
-    margin-bottom: 3rem;
-}
-
 button {
     background-color: #D9B254;
 }
 
 /* ------------------------ Redesign ------------------------ */
 /* --------------- Grid_5-1 --------------- */
-
-.grid_5-1 img {
-border: #f0f0f0 solid 2px;
-
-}
-
-.grid_5-1 {
-    margin-bottom: 5rem;
-}
 
 /* --------------- Grid_5-2 --------------- */
 .grid_5-2 {
@@ -32,49 +16,46 @@ border: #f0f0f0 solid 2px;
 
 .grid_5-2 img {
     width: 30%;
-    }
+}
 
-    .research {
+.research {
 text-align: center;
 margin-top: 2rem;
 font-family: 'DM Serif Display', serif;
 text-transform: none;
+}
 
-    }
-
-    .grid_5-2 button {
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-        }
+.grid_5-2 button {
+margin-top: 1rem;
+margin-bottom: 3rem;
+}
 
    .col_5-3 {
-    /* background-color: rgb(164, 184, 204); */
     padding-inline: 1rem;
     padding-block: 2rem;
     margin-bottom: 1rem;
 }     
 
 .col_5-4 {
-    /* background-color: rgb(159, 77, 33); */
     padding-inline: 1rem;
     padding-block: 2rem;
     margin-bottom: 1rem;
-
 } 
 
 .col_5-5 {
-    /* background-color: rgb(198, 200, 202); */
     padding-inline: 1rem;
     padding-block: 2rem;
     margin-bottom: 1rem;
-
 } 
+
+
+
+
 
 /* --------------- Grid_5-3 --------------- */
 
 .grid_5-3{
     background-color: #D9B254;
-    
     margin-bottom: 5rem;
     padding-inline: 2rem;
     padding-block: 2rem;
@@ -87,6 +68,7 @@ text-transform: none;
  padding-top: 0.5rem;
  color: #BC6F27;
 }
+
 .grid_5-3 small{
     text-transform: uppercase;
     font-size: 40%;
@@ -101,16 +83,13 @@ text-transform: none;
     padding-top: 0.5rem;
     margin-bottom: 1rem;
     color: #BC6F27;
-
    }
 
    .grid_5-3 button{
     text-transform: none;
     margin-left: 20%;
     font-size: 50%;
-    
     background-color: #BC6F27;
-
    }
    
 
@@ -118,24 +97,22 @@ text-transform: none;
 
 /* --------------- Grid_5-4 --------------- */
 
-
-
-
-
 .grid_5-4 h2 {
     font-family: 'DM Serif Display', serif;
     text-transform: none;
 text-align: center;
 }
 
+
+
+
 .galleri_5_mobile {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(23, 1fr);
     gap: 0.2rem;
-margin-inline: 1rem;
+    margin-inline: 1rem;
 }
-
 
 .redesign_galleri_1 {
     grid-column: 1 / span 1;
@@ -187,8 +164,6 @@ margin-inline: 1rem;
     object-fit: cover;
 }
 
-
-
 .redesign_galleri_8 {
     grid-column: 2 / span 1;
     grid-row: 12 / span 9;
@@ -205,13 +180,13 @@ margin-inline: 1rem;
 
 
 
+
 .galleri_5_desktop {
     display: none;
 }
 
 
 /* --------------- Grid_5-5 --------------- */
-
 
 .grid_5-5 {
     display: grid;
@@ -220,48 +195,48 @@ margin-inline: 1rem;
     margin-top: 8rem;
     }
 
-
-
     .col_5-6 {
         background-color: #efe9dc;
         padding-inline: 1rem;
         padding-block: 2rem;
         display: flex;
         align-items: center;
-        }
+    }
 
-        .col_5-7 {
+    .col_5-7 {
             background-color: #9f4d21;
             text-align: right;
             padding-inline: 1rem;
             padding-block: 3rem;
-            }
+    }
 
     .col_5-7 h2 {
         color: white;
         font-family: 'DM Serif Display', serif;
         text-transform: none;
-font-size: 180%;    
+       font-size: 180%;    
     }      
     
     .col_5-7 p {
         color: white;
         text-transform: none;
-font-size: 50%;    
+       font-size: 50%;    
     }   
 
     .col_5-7 h3 {
         color: white;
         text-transform: none;
-font-size: 60%;    
+        font-size: 60%;    
     } 
 
     .col_5-7 small {
         color: white;
         text-transform: none;
         font-style: italic;
-font-size: 50%;    
+        font-size: 50%;    
     } 
+
+
 
 
 /* --------------- Grid_5-6 --------------- */
@@ -288,7 +263,7 @@ font-size: 50%;
 
 
 
-
+/* ------------------------ Min 500px ------------------------ */
 
 @media (min-width: 500px) {
     /* --------------- Grid_5-2 --------------- */
@@ -303,8 +278,8 @@ font-size: 50%;
         margin-bottom: 4rem;
     } 
     .grid_5-2 img{
-width: 45%;  
-margin-bottom: 1rem;
+    width: 45%;  
+    margin-bottom: 1rem;
   } 
 
 
@@ -334,9 +309,6 @@ margin-bottom: 1rem;
    }
    
 
-
-
-
    .col_5-6 {
     padding-inline: 2rem;
     padding-block: 3rem;
@@ -354,7 +326,12 @@ margin-bottom: 1rem;
 
 
 
+
+
+/* ------------------------ Min 700px ------------------------ */
 @media (min-width: 700px) {
+
+    /* --------------- Grid_5-1 --------------- */
     .grid_5-1 {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -362,6 +339,7 @@ margin-bottom: 1rem;
         }
 
 
+/* --------------- Grid_5-3 --------------- */
 
            .grid_5-3{
             padding-inline: 8rem;
@@ -369,6 +347,7 @@ margin-bottom: 1rem;
            .grid_5-3 p{
             margin-top: 2rem;
            }
+/* --------------- Grid_5-4 --------------- */
 
            .grid_5-4 h2 {
                 font-size: 210%;
@@ -380,8 +359,6 @@ margin-bottom: 1rem;
             margin-bottom: 2rem;
            }
 
-
-
   .galleri_5_mobile {
     display: none;
   }
@@ -392,6 +369,8 @@ margin-bottom: 1rem;
 }
 
 
+
+/* --------------- Grid_5-5 --------------- */
 
 .col_5-7 h2 {
 font-size: 275%;    
@@ -413,24 +392,26 @@ font-size: 60%;
 .col_5-7 button {
     font-size: 86%;
 }
-
-
-
-
-
     
   }
 
 
+
+
+  /* ------------------------ Min 1100px ------------------------ */
+
   @media (min-width: 1100px) {
 
+/* --------------- Grid_5-2 --------------- */
   .grid_5-2 {
     margin-inline: 10rem;
     gap: 3rem;
  }
+.grid_5-2 button {
+    font-size: 100%;
+}
 
-
-
+/* --------------- Grid_5-2 --------------- */
  .grid_5-3{
     padding-inline: 10rem;
 }
@@ -439,19 +420,19 @@ font-size: 60%;
  font-size: 140%;
 }
 
-.grid_5-2 button {
-    font-size: 100%;
-}
-
    .grid_5-3 p{
     font-size: 90%;
    }
 
-   .galleri_5_desktop {
 
+/* --------------- Grid_5-4 --------------- */
+   .galleri_5_desktop {
     margin-inline: 15rem;
 }
 
+
+
+/* --------------- Grid_5-5 --------------- */
 
 .col_5-7 h2 {
     font-size: 400%;    
@@ -478,8 +459,5 @@ font-size: 60%;
         margin-inline: 10rem;
         margin-bottom: 8rem;
     }
-
-
-   
 
 }
