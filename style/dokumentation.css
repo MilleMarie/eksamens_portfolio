@@ -24,11 +24,6 @@ small {
     letter-spacing: 0.01rem;
 }
 
-.grid_8-5 button {
-    background-color: transparent;
-    border: white solid 2px;
-}
-
 /* --------------- Farvede overskrifter --------------- */
 
 .grid_8-1 h2 {
@@ -257,13 +252,7 @@ border: #f0f0f0 solid 2px;
 /* --------------- Grid_8-5 --------------- */
 
 
-.grid_8-5 {
-    background-color: #ccc9b5; 
-    display: block;
-    padding: 1rem;
-    text-align: center;
-    margin: 0;
-}
+
 
 
 
@@ -282,8 +271,4 @@ border: #f0f0f0 solid 2px;
           
 
 
-          .grid_8-5 button{
-            font-size: 80%;
-            padding-inline: 3.5rem;
-           }    
   }

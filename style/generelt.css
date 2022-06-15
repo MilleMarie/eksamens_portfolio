@@ -217,6 +217,21 @@ footer {
   height: 3rem;
 }
 
+footer p{
+ 
+  font-family: "Work Sans", sans-serif;
+  font-size: 70%;
+ 
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #3d3d3d;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+
+}
+
 
 
 
